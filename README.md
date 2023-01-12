@@ -1,16 +1,14 @@
 # seat_finder
 
-A new Flutter project.
+A flutter assignment for the CRUV Flutter Developer opportunity
 
-## Getting Started
+### Features:
+- User can search for the particular seats
+- Users can select and de-select the seats
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Screenshots
+<div align=center>
+<img src="./assets/images/ss1.jpg" alt="ss1" width="200"/>
+<img src="./assets/images/ss2.jpg" alt="ss2" width="200"/>
+<img src="./assets/images/ss3.jpg" alt="ss3" width="200"/>
+</div>
