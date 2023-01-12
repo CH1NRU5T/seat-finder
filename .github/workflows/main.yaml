@@ -21,8 +21,7 @@ jobs:
 
       - uses: subosito/flutter-action@v2.8.0
         with:
-          flutter-version: "2.19.x"
-          channel: "dev"
+          flutter-version: "3.0.5"
       - run: flutter pub get
       - run: flutter build apk --debug --split-per-abi
       - name: Push to Releases
