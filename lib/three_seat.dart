@@ -68,6 +68,15 @@ class _SeatState extends State<Seat> {
 
   @override
   Widget build(BuildContext context) {
+    int number = calculate(widget.count, widget.position, widget.add);
+    String text = "";
+    if (number % 8 == 1 || number % 8 == 4) {
+      text = 'Lower';
+    } else if (number % 8 == 2 || number % 8 == 5) {
+      text = "Middle";
+    } else if (number % 8 == 3 || number % 8 == 6) {
+      text = 'Upper';
+    }
     return GestureDetector(
       onTap: () {
         setState(() {
@@ -91,8 +100,8 @@ class _SeatState extends State<Seat> {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Text('${calculate(widget.count, widget.position, widget.add)}'),
-              const Text('Lower'),
+              Text('$number'),
+              Text(text),
             ],
           ),
         ),
